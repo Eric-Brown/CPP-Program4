@@ -1,0 +1,19 @@
+﻿  Program4.cpp
+c:\users\alexa\documents\programming\cpp\cpp class\program 4\program4\program4\program4.cpp(64): warning C4244: '=': conversion from 'double' to '::size_t', possible loss of data
+c:\users\alexa\documents\programming\cpp\cpp class\program 4\program4\program4\program4.cpp(81): warning C4101: 'ex': unreferenced local variable
+c:\users\alexa\documents\programming\cpp\cpp class\program 4\program4\program4\program4.cpp(85): warning C4101: 'ex': unreferenced local variable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\numeric(25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\numeric(35): note: see reference to function template instantiation '_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(_InIt,const _InIt,_Ty,_Fn)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _Fn=std::plus<void>
+          ]
+  c:\users\alexa\documents\programming\cpp\cpp class\program 4\program4\program4\program4.cpp(205): note: see reference to function template instantiation '_Ty std::accumulate<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>,int>(_InIt,const _InIt,_Ty)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>
+          ]
+  Program4.vcxproj -> C:\Users\alexa\Documents\Programming\CPP\CPP Class\Program 4\Program4\Debug\Program4.exe
